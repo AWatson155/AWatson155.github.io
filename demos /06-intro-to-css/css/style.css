@@ -1,0 +1,26 @@
+#p1 {
+    color: red;
+    font-family:'Courier New', Courier, monospace;
+    background-color: bisque;
+}
+#p2 {
+    color: blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: bisque;
+    text-align: center;
+}
+body {
+    background: greenyellow;
+} 
+span {
+    color:black;
+}
+#sp1 {
+    font-size: 24px;
+    font-weight: italic;
+}
+#sp4 {
+    background-color: aquamarine;
+    font-weight: 800;
+    font-style: italic;
+}
