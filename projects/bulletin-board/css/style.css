@@ -6,3 +6,77 @@
 
     Good luck, and have fun!
 */
+.post-it {
+    background-color: rgb(117, 76, 157);
+    display: inline-block;
+    width: 200px;
+    height: 180px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    margin: 24px; 
+    padding: 24px;
+    vertical-align: top;
+}
+.post-it-2 {
+    background-color: rgb(226, 131, 43);
+    display: inline-block;
+    width: 200px;
+    height: 180px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    margin: 24px; 
+    padding: 12px;
+    vertical-align: top;
+}
+.post-it-3 {
+    background-color: rgb(117, 76, 157);
+    display: inline-block;
+    width: 200px;
+    height: 180px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+    margin: 24px; 
+    padding: 6px;
+    vertical-align: auto;
+}
+img {
+    width: 50%;
+    object-fit: contain;
+    align-content: end;
+}
+.post-it-4 {
+    background-color: rgb(173, 28, 144);
+    display: inline-block;
+    width: 200px;
+    height: 180px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    margin: 24px; 
+    padding: 24px;
+    vertical-align: top;
+}
+.post-it-5 {
+    background-color: rgb(117, 76, 157);
+    display: inline-block;
+    width: 200px;
+    height: 180px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+    margin: 24px; 
+    padding: 6px;
+    vertical-align: auto;
+}
+img {
+    margin: 12px opx 12px;
+}
+.post-it-6 {
+    background-color: rgb(6, 114, 44);
+    display: inline-block;
+    width: 200px;
+    height: 180px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    margin: 24px; 
+    padding: 24px;
+    vertical-align: top;
+}
