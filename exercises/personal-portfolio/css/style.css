@@ -3,8 +3,7 @@
 /* ========================= */
 
 /* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Amarante&family=Bevan:wght@400;700&display=swap');
 
 /* ========================= */
 /* RESET */
@@ -16,36 +15,30 @@
     box-sizing: border-box;
 }
 
-
 html {
     scroll-behavior: smooth;
 }
 
-
 body {
-    font-family: "Poppins", sans-serif;
+    font-family: "amarante"; serif;
     background: #050505;
     color: #f5f5f5;
     line-height: 1.6;
 }
-
 
 img {
     width: 100%;
     display: block;
 }
 
-
 a {
     text-decoration: none;
     color: inherit;
 }
 
-
 ul {
     list-style: none;
 }
-
 
 /* ========================= */
 /* HERO SECTION */
@@ -54,17 +47,16 @@ ul {
 .hero {
     min-height: 100vh;
     background:
-    linear-gradient(
-        rgba(0,0,0,.65),
-        rgba(0,0,0,.85)
-    ),
-    url("../images/ashelic-hero.PNG");
+        linear-gradient(
+            rgba(0,0,0,.65),
+            rgba(0,0,0,.85)
+        ),
+        url("../images/ashelic-hero.PNG");
     background-size: cover;
     background-position: center;
     display: flex;
     flex-direction: column;
 }
-
 
 /* ========================= */
 /* NAVIGATION */
@@ -75,9 +67,8 @@ ul {
     justify-content: space-between;
     align-items: center;
     padding: 25px 70px;
-    border-bottom: 1px solid rgba(255,255,255,.1);
+    border-bottom: 1px solid rgba(255, 255, 255, .1);
 }
-
 
 .logo {
     width: 200px;
@@ -86,8 +77,6 @@ ul {
     background-repeat: no-repeat;
     height: 100px;
 }
-
-
 
 .nav-bar {
     display: flex;
@@ -118,7 +107,7 @@ ul {
 }
 
 .text h1 {
-    font-family: "Bebas Neue", sans-serif;
+    font-family: "Bevan", serif;
     font-size: 6rem;
     letter-spacing: 5px;
     text-transform: uppercase;
@@ -138,7 +127,6 @@ ul {
 /* ========================= */
 /* BUTTONS */
 /* ========================= */
-
 
 .button {
     display: inline-block;
@@ -161,7 +149,6 @@ ul {
 /* PROJECTS */
 /* ========================= */
 
-
 #projects {
     padding: 100px 70px;
 }
@@ -169,7 +156,7 @@ ul {
 #projects h2,
 #about h2,
 #contact h2 {
-    font-family: "Bebas Neue", sans-serif;
+    font-family: "Bevan", serif;
     font-size: 3rem;
     letter-spacing: 4px;
     text-align: center;
@@ -178,7 +165,7 @@ ul {
 
 .project-container {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    align-items: flex-start;
     gap: 30px;
 }
 
@@ -232,8 +219,9 @@ ul {
 }
 
 .blender-gallery img {
-    height: 150px;
-    object-fit: contain;
+    height: 400px;
+    width: 600px;
+    object-fit: cover;
 }
 
 /* ========================= */
@@ -291,25 +279,25 @@ footer {
 
 @media(max-width:768px){
 
-.navbar {
-    flex-direction: column;
-    gap: 20px;
-}
+    .navbar {
+        flex-direction: column;
+        gap: 20px;
+    }
 
-.nav-bar {
-    flex-direction: column;
-    text-align: center;
-}
+    .nav-bar {
+        flex-direction: column;
+        text-align: center;
+    }
 
-.text {
-    padding: 40px;
-}
+    .text {
+        padding: 40px;
+    }
 
-.text h1 {
-    font-size: 4rem;
-}
+    .text h1 {
+        font-size: 4rem;
+    }
 
-.project-container {
-    grid-template-columns: 1fr;
-}
+    .project-container {
+        grid-template-columns: 1fr;
+    }
 }
