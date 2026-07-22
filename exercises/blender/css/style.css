@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: #050505;
+    color: rgb(175, 0, 0);
+}
+
+/* Gallery section */
+.mini-gallery {
+    width: 85%;
+    max-width: 1000px;
+    margin: 80px auto;
+    text-align: center;
+}
+
+.mini-gallery h2 {
+    font-size: 3rem;
+    margin-bottom: 50px;
+}
+
+/* Stack images vertically */
+.gallery-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: center;
+}
+
+/* Individual images */
+.gallery-grid img {
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 15px;
+    background: #111;
+    padding: 20px;
+}
